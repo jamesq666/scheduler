@@ -28,7 +28,8 @@ type TakeSchedule struct {
 	TakeTime string `json:"take_time"`
 }
 
-const PPH = 12
+// time period parameter
+const PPH = 2
 
 func main() {
 	err := godotenv.Load(".env")
